@@ -50,4 +50,34 @@ func main() {
 
 	fmt.Println(favNumber, favSport, favKicks)
 
+	//using shorcut (:=) instead of using var as keyword
+	favPet := "cat"
+
+	fmt.Println(favPet)
+
+	// using shortcut (:=) for compound creation
+	favFruits, favLogo, favCompany := "mango", "nike", "payd"
+
+	fmt.Println(favFruits, favLogo, favCompany)
+
+	// using shortcut (:=) for block creation
+	favShoes,
+		FavAnimal,
+		FavCountry := "Timberland", "Lion", "Germany"
+	fmt.Println(favShoes, FavAnimal, FavCountry)
+
+	favDrink := "coffee"
+	fmt.Println(favDrink)
+
+	cup1, cup2, cup3 := "tea", "black coffee", "orange juice"
+	fmt.Println(cup1, cup2, cup3)
+	// cup3 := "capucciono cofee"---- you cant reassign like this but you can do like this -
+	cup3 = "capucciono cofee"
+
+	fmt.Println(cup3)
+
+	//using constant variables . (const)
+	const myName = "olive"
+	// myName = "njeri"----------can not use myName varibale coz its constant it cannot change.
+
 }
